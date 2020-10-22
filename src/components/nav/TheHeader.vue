@@ -28,7 +28,7 @@
 export default {
   computed: {
     cartQuantity() {
-      return this.$store.getters['cart/quantity']
+      return this.$store.getters['cart/quantity'];
     }
   }
 };
